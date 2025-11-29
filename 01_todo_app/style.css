@@ -1,0 +1,16 @@
+/* .container {
+    max-width: 400px;
+    border: 1px solid black;
+} */
+
+#todo-list li {
+    list-style: none;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.complited {
+    text-decoration: line-through;
+}
